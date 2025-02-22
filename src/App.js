@@ -2,12 +2,16 @@
 import './App.css';
 import QrCodeGenerator from './Components/QrCodeGenerator';
 
-function App() {
+
+const App = () => {
+ 
+
   return (
-   <>
-   <QrCodeGenerator />
-   </>
+    <>
+          <QrCodeGenerator />
+     
+    </>
   );
-}
+};
 
 export default App;
